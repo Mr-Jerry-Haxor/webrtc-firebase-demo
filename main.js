@@ -1,11 +1,19 @@
 import './style.css';
 
-import firebase from 'firebase/app';
-import 'firebase/firestore';
+
 
 const firebaseConfig = {
-  // your config
+    apiKey: "AIzaSyAyyo84UStaTftlNzjwnpIMOIiMOKNj0bw",
+    authDomain: "videochat-51ec2.firebaseapp.com",
+    projectId: "videochat-51ec2",
+    storageBucket: "videochat-51ec2.appspot.com",
+    messagingSenderId: "163437348481",
+    appId: "1:163437348481:web:ae395489f503b8ae9e2f80",
+    measurementId: "G-NH9G890VR1"
 };
+
+import firebase from 'firebase/app';
+import 'firebase/firestore';
 
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
